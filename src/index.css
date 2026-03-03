@@ -1,0 +1,4 @@
+@import "tailwindcss";
+
+/* Opcional: Configurar una clase personalizada para el modo oscuro si no quieres depender de la preferencia del sistema operativo */
+@custom-variant dark (&:where(.dark, .dark *));
